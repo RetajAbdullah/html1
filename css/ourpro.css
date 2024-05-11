@@ -1,0 +1,163 @@
+body {
+    font-family: Garamond, serif;
+    background-color:lavenderblush;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+
+   
+}
+#ul {
+    list-style-type: none;
+    margin: auto; 
+    padding: 0;
+    overflow: hidden;
+    background-color: mediumvioletred;
+    width: fit-content; /* تحديد عرض يناسب المحتوى */
+}
+  #li {
+    float: left;
+   
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:lightpink;
+  }
+   
+
+
+
+
+nav ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+   
+    display: inline;
+    margin-right: 20px;
+}
+
+
+#home {
+    text-align: center;
+}
+
+#group-members {
+    color: firebrick;
+    font-size: 33px;
+    padding: 20px;
+    list-style-type: square;
+}
+
+#contact-us {
+    margin-top: 20px;
+}
+
+#contact-form {
+    text-align: left;
+}
+
+#member-list li {
+   
+   font-size: 30px;
+    margin: 5px;
+    list-style-type: square;
+}
+
+
+
+.photo{
+    position: calc();
+    width: 1088px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 180px;
+
+}
+#video{
+    margin-top: 30px;
+    margin-left: 250px;
+    width :900 ; 
+    ;height :700;
+}
+#form{
+    color: firebrick;
+    margin-left: 200px;
+    font-size: 20px;
+   margin-top: 50px;
+}
+.welcome{
+width: 1400px;
+height: 325px;
+margin-top: 20px;
+margin-left: 5px;
+}
+#cf{
+ font-size: 20px;
+ color:dimgray;
+ margin-left: 100px;
+}
+#fixed{
+    width: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 2px;
+}
+
+.opinion-box {
+    color: firebrick;
+    font-size: 25px;
+    background-color: pink;
+    padding: 20px;
+    margin-bottom: 20px; /* Add space between boxes */
+    border-radius: 10px;
+}
+.payment-image {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+    margin-right: 10px; /* Add some spacing between the image and the radio button */
+}
+@keyframes flash {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.flashing {
+    animation: flash 1s infinite; /* تطبيق الأنميشن للكلاس "flashing" بدوامٍ مستمر */
+}
+.button {
+    font-family: Garamond, serif;
+    position: absolute;
+    bottom: 10px; /* يبدأ الزر من أسفل الصورة بمقدار 10 بكسل */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: mediumvioletred; /* لون الخلفية */
+    color: #fff; /* لون النص */
+    border: none; /* إزالة حدود الزر */
+    border-radius: 5px; /* تقوس الحواف */
+    font-size: 16px; /* حجم الخط */
+    cursor: pointer; /* تغيير شكل المؤشر عند التحويم */
+    transition: background-color 0.3s; /* تغيير لون الخلفية بسلاسة عند التحويم */
+}
+
+.button:hover {
+    background-color: #d9328b; /* تغيير لون الخلفية عند التحويم */
+}
+
+

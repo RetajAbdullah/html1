@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./css/ourpro.css">
+    <style>
+        .payment-image {
+            width: 50px; /* تعديل العرض حسب الحاجة */
+            height: auto; /* ضبط الارتفاع تلقائيًا مع الحفاظ على نسبة العرض إلى الارتفاع */
+            margin-right: 10px; /* إضافة بعض التباعد بين الصورة وزر الاختيار */
+        }
+    </style>
+</head>
+<body> 
+    
+    <nav>
+        <ul id="ul">
+            <li id="li"><a href="./index.html">Home</a></li>
+            <li id="li"><a href="./aboutusoo2.html">About Us</a></li>
+            <li id="li"><a href="./conectus2.html">Contact us</a></li>
+            <li id="li"><a href="./photoo2.html">Photo</a></li>
+            <li id="li"><a href="./member2.html">Membership</a></li>
+            <li id="li"><a href="./fit2.html">Fitness</a></li>
+            <li id="li"><a href="./why2.html">feedbacks</a></li>
+        </ul>
+    </nav>
+ 
+    <form id="form">  
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required><br><br>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required><br><br>
+        
+        <p>Best way to contact:</p>
+        <input type="checkbox" id="ch1" name="ch1">
+        <label for="ch1">Email</label>
+        <input type="checkbox" id="ch2" name="ch2">
+        <label for="ch2">Phone</label><br><br>
+        
+        <label for="message">Message:</label><br><br>
+        <textarea id="message" placeholder="Write your feedback here"></textarea><br><br>
+        
+        <label>Payment Method:</label><br>
+        <div class="payment">
+            <div class="payment-method">
+                <img src="./photos/كاش.jpg" alt="Cash" class="payment-image">
+                <input type="radio" id="cash" name="payment" value="cash">
+                <label for="cash">Cash</label><br>
+            </div>
+            <div class="payment-method">
+                <img src="./photos/ماستر كارد.jpg" alt="Mastercard" class="payment-image">
+                <input type="radio" id="mastercard" name="payment" value="mastercard">
+                <label for="mastercard">Mastercard</label><br>
+            </div>
+            <div class="payment-method">
+                <img src="./photos/ابل باي.webp" alt="Apple Pay" class="payment-image">
+                <input type="radio" id="applepay" name="payment" value="applepay">
+                <label for="applepay">Apple Pay</label><br><br>
+            </div>
+        </div>
+        
+        <button type="button" onclick="alert('Thank you, your comment has been sent')">Send</button>
+    </form>
+    
+    <img id="fixed" src="صورة الشعار.jpg">
+</body>
+</html>
